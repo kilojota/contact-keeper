@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://kilojota:Wl3M6pSdqlJk1vqD@contact-keeper-bqorl.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "cjiaosjdoaijcaocindoivpnq903p8r1hj30df9jacioans9co08jx90318nc9pwedubnp9fu7bwep"
+}
