@@ -1,7 +1,7 @@
 import React, { useState, useContext, useEffect } from 'react';
 import AuthContext from '../../context/auth/authContext';
 import AlertContext from '../../context/alert/alertContext';
-
+import Alerts from '../layout/Alerts';
 const Login = props => {
     const alertContext = useContext(AlertContext);
     const authContext = useContext(AuthContext);
@@ -56,7 +56,7 @@ const Login = props => {
                     <label htmlFor='password'>Password</label>
                     <input type='password' name='password' value={password} onChange={onChange} />
                 </div>
-
+                <Alerts />
                 <input type='submit' value='Login' className='btn btn-block btn-primary' />
             </form>
         </div>
